@@ -1,0 +1,19 @@
+timestamp: 2026-06-12T19:50:53-07:00
+jobid: 1569
+node: cmpsc32-node.cs.ucsb.edu
+netids: nicholasmcmillan
+alien_id: 0
+
+==== seti-perf output ====
+Comparing performance of 
+     your program: ./p_band_scan
+  and our program: <reference program>
+for  bands: (16)
+    orders: (32)
+     procs: (8) [threads 1:1 with procs]
+  signals: 3
+
+band	order	thread	proc	yourtime	ourtime		perf
+16	32	8	8	0.865927637089044	0.82309373607859	0.950534087173327
+16	32	8	8	0.876914630178362	0.812505202135071	0.926549944741838
+16	32	8	8	0.910256511066109	0.855323490919545	0.939651054973257
